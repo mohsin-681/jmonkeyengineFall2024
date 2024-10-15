@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ShaderNodeDefinitions{
     ShaderNodeDefinition ColorSplitter {      
         Type: Fragment
@@ -20,4 +21,28 @@ ShaderNodeDefinitions{
             float alpha
         }
     }
+=======
+ShaderNodeDefinitions{
+    ShaderNodeDefinition ColorSplitter {      
+        Type: Fragment
+        Shader GLSL100: Common/MatDefs/ShaderNodes/Basic/colorSplitter.frag
+        Documentation{
+            Retrieves the individual color channels
+            @input color the color
+            @output red the red channel
+            @output green the green channel
+            @output blue the blue channel
+            @output alpha the alpha channel
+        }
+        Input {
+            vec4 color        
+        }
+        Output {
+            float red
+            float green
+            float blue
+            float alpha
+        }
+    }
+>>>>>>> 77fd70f68c102373aaa58758a341154d80c3c175
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Material Monkey Head : Common/MatDefs/Light/Lighting.j3md {
     MaterialParameters {
 	   Shininess   : 4.0
@@ -5,4 +6,13 @@ Material Monkey Head : Common/MatDefs/Light/Lighting.j3md {
 	   NormalMap   : Models/MonkeyHead/MonkeyHead_normal.jpg
 	   SpecularMap : Models/MonkeyHead/MonkeyHead_spec.jpg
     }
+=======
+Material Monkey Head : Common/MatDefs/Light/Lighting.j3md {
+    MaterialParameters {
+	   Shininess   : 4.0
+	   DiffuseMap  : Models/MonkeyHead/MonkeyHead_diffuse.jpg
+	   NormalMap   : Models/MonkeyHead/MonkeyHead_normal.jpg
+	   SpecularMap : Models/MonkeyHead/MonkeyHead_spec.jpg
+    }
+>>>>>>> 77fd70f68c102373aaa58758a341154d80c3c175
 }

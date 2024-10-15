@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 material Material.002/SOLID/TEX/bluewarrior1024.j/VertCol
 {
 	technique
@@ -13,3 +14,20 @@ material Material.002/SOLID/TEX/bluewarrior1024.j/VertCol
 		}
 	}
 }
+=======
+material Material.002/SOLID/TEX/bluewarrior1024.j/VertCol
+{
+	technique
+	{
+		pass
+		{
+			diffuse vertexcolour
+			specular 0.000000 0.000000 0.000000 0.250000
+			texture_unit
+			{
+				texture Oto.jpg
+			}
+		}
+	}
+}
+>>>>>>> 77fd70f68c102373aaa58758a341154d80c3c175

@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 Material jME Logo : Common/MatDefs/Misc/Unshaded.j3md {
     MaterialParameters {
         ColorMap : Interface/Logo/Monkey.jpg
     }
+=======
+Material jME Logo : Common/MatDefs/Misc/Unshaded.j3md {
+    MaterialParameters {
+        ColorMap : Interface/Logo/Monkey.jpg
+    }
+>>>>>>> 77fd70f68c102373aaa58758a341154d80c3c175
 }

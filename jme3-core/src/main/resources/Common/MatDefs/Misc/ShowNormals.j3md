@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 MaterialDef Debug Normals {
     MaterialParameters {
         Int BoundDrawBuffer
@@ -21,4 +22,29 @@ MaterialDef Debug Normals {
             INSTANCING : UseInstancing
         }
     }
+=======
+MaterialDef Debug Normals {
+    MaterialParameters {
+        Int BoundDrawBuffer
+        // For instancing
+        Boolean UseInstancing
+    }
+
+    Technique {
+        VertexShader   GLSL300 GLSL150 GLSL100:   Common/MatDefs/Misc/ShowNormals.vert
+        FragmentShader GLSL300 GLSL150 GLSL100: Common/MatDefs/Misc/ShowNormals.frag
+
+        WorldParameters {
+            WorldViewProjectionMatrix
+            ViewProjectionMatrix
+            ViewMatrix
+            ProjectionMatrix
+        }
+
+        Defines {
+            BOUND_DRAW_BUFFER: BoundDrawBuffer
+            INSTANCING : UseInstancing
+        }
+    }
+>>>>>>> 77fd70f68c102373aaa58758a341154d80c3c175
 }

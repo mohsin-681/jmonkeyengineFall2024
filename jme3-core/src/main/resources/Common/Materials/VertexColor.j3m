@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 Material Vertex Color Ext : Common/MatDefs/Misc/Unshaded.j3md {
     MaterialParameters {
         VertexColor : true
     }
+=======
+Material Vertex Color Ext : Common/MatDefs/Misc/Unshaded.j3md {
+    MaterialParameters {
+        VertexColor : true
+    }
+>>>>>>> 77fd70f68c102373aaa58758a341154d80c3c175
 }

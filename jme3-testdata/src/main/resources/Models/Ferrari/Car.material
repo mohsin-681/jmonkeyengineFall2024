@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 material fskin.002/SOLID/TEX/fskin.jpg
 {
 	technique
@@ -13,3 +14,20 @@ material fskin.002/SOLID/TEX/fskin.jpg
 		}
 	}
 }
+=======
+material fskin.002/SOLID/TEX/fskin.jpg
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.505882 0.505882 0.505882
+			specular 0.500000 0.500000 0.500000 12.500000
+			texture_unit
+			{
+				texture Car.jpg
+			}
+		}
+	}
+}
+>>>>>>> 77fd70f68c102373aaa58758a341154d80c3c175

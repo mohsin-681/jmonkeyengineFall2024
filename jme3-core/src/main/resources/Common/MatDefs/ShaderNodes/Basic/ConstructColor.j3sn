@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ShaderNodeDefinitions{
     ShaderNodeDefinition ConstructColor {      
         Type: Fragment
@@ -20,4 +21,28 @@ ShaderNodeDefinitions{
             vec4 outColor
         }
     }
+=======
+ShaderNodeDefinitions{
+    ShaderNodeDefinition ConstructColor {      
+        Type: Fragment
+        Shader GLSL100: Common/MatDefs/ShaderNodes/Basic/constructColor.frag
+        Documentation{
+            Creates a new color out of 4 channels
+            @input red the red channel
+            @input green the green channel
+            @input blue the blue channel
+            @input alpha the alpha channel
+            @output outColor the resulting color
+        }
+        Input {
+            float red
+            float green
+            float blue
+            float alpha
+        }
+        Output {
+            vec4 outColor
+        }
+    }
+>>>>>>> 77fd70f68c102373aaa58758a341154d80c3c175
 }

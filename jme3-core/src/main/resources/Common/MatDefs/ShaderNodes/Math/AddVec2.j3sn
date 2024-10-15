@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ShaderNodeDefinitions{
     ShaderNodeDefinition AddVec2 {      
         Type: Fragment
@@ -16,4 +17,24 @@ ShaderNodeDefinitions{
             vec2 outCoord
         }
     }
+=======
+ShaderNodeDefinitions{
+    ShaderNodeDefinition AddVec2 {      
+        Type: Fragment
+        Shader GLSL100: Common/MatDefs/ShaderNodes/Math/addVec2.frag
+        Documentation{
+            Add an incoming vec2 by another supplied vec2
+            @input coord1 the first vec2
+            @input coord2 the second vec2            
+            @output outCoord the resulting coord
+        }
+        Input {
+            vec2 coord1
+            vec2 coord2            
+        }
+        Output {
+            vec2 outCoord
+        }
+    }
+>>>>>>> 77fd70f68c102373aaa58758a341154d80c3c175
 }
