@@ -34,11 +34,6 @@ package com.jme3.app.state;
 import java.awt.Component;
 
 import com.jme3.app.Application;
-<<<<<<< HEAD
-=======
-import com.jme3.app.state.AbstractAppState;
-import com.jme3.app.state.AppStateManager;
->>>>>>> 77fd70f68c102373aaa58758a341154d80c3c175
 import com.jme3.system.AWTFrameProcessor;
 import com.jme3.system.AWTTaskExecutor;
 
