@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 MaterialDef Default GUI {
 
     MaterialParameters {
@@ -23,4 +24,31 @@ MaterialDef Default GUI {
     }
 
 
+=======
+MaterialDef Default GUI {
+
+    MaterialParameters {
+        Int BoundDrawBuffer
+        Texture2D Texture
+        Color Color (Color)
+        Boolean VertexColor (UseVertexColor)
+    }
+
+    Technique {
+        VertexShader GLSL300 GLSL150 GLSL100:   Common/MatDefs/Gui/Gui.vert
+        FragmentShader GLSL300 GLSL150 GLSL100: Common/MatDefs/Gui/Gui.frag
+
+        WorldParameters {
+            WorldViewProjectionMatrix
+        }
+
+        Defines {
+            BOUND_DRAW_BUFFER: BoundDrawBuffer
+            TEXTURE : Texture
+            VERTEX_COLOR : VertexColor
+        }
+    }
+
+
+>>>>>>> 77fd70f68c102373aaa58758a341154d80c3c175
 }

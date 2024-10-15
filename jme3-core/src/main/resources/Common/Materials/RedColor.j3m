@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 Material Red Color : Common/MatDefs/Misc/Unshaded.j3md {
      MaterialParameters {
          Color : 1 0 0 1
      }
+=======
+Material Red Color : Common/MatDefs/Misc/Unshaded.j3md {
+     MaterialParameters {
+         Color : 1 0 0 1
+     }
+>>>>>>> 77fd70f68c102373aaa58758a341154d80c3c175
 }

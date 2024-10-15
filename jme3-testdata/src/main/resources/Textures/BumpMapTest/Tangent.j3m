@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 Material TangentBinormal : Common/MatDefs/Light/Lighting.j3md {
      MaterialParameters {
          Shininess: 8.0
          DiffuseMap: Textures/BumpMapTest/Tangent.png
      }
+=======
+Material TangentBinormal : Common/MatDefs/Light/Lighting.j3md {
+     MaterialParameters {
+         Shininess: 8.0
+         DiffuseMap: Textures/BumpMapTest/Tangent.png
+     }
+>>>>>>> 77fd70f68c102373aaa58758a341154d80c3c175
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Material ElephantBody : Common/MatDefs/Light/Lighting.j3md {
     MaterialParameters {
          Shininess: 16.0
@@ -5,4 +6,13 @@ Material ElephantBody : Common/MatDefs/Light/Lighting.j3md {
          NormalMap:  Models/Elephant/Elephant_normal.jpg
 
     }
+=======
+Material ElephantBody : Common/MatDefs/Light/Lighting.j3md {
+    MaterialParameters {
+         Shininess: 16.0
+         DiffuseMap: Models/Elephant/Elephant.jpg
+         NormalMap:  Models/Elephant/Elephant_normal.jpg
+
+    }
+>>>>>>> 77fd70f68c102373aaa58758a341154d80c3c175
 }

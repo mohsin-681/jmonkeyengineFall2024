@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Material Signpost : Common/MatDefs/Light/Lighting.j3md {
     MaterialParameters {
          Shininess: 4.0
@@ -9,4 +10,17 @@ Material Signpost : Common/MatDefs/Light/Lighting.j3md {
          Diffuse  : 1.0 1.0 1.0 1.0
          Specular : 1.0 1.0 1.0 1.0
     }
+=======
+Material Signpost : Common/MatDefs/Light/Lighting.j3md {
+    MaterialParameters {
+         Shininess: 4.0
+         DiffuseMap:  "Models/Sign Post/Sign Post.jpg"
+         NormalMap:   "Models/Sign Post/Sign Post_normal.jpg"
+         SpecularMap: "Models/Sign Post/Sign Post_specular.jpg"
+         UseMaterialColors : true
+         Ambient  : 1.0 1.0 1.0 1.0
+         Diffuse  : 1.0 1.0 1.0 1.0
+         Specular : 1.0 1.0 1.0 1.0
+    }
+>>>>>>> 77fd70f68c102373aaa58758a341154d80c3c175
 }

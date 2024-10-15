@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 MaterialDef Pre Shadow {
     MaterialParameters {
         Int BoundDrawBuffer
@@ -24,4 +25,32 @@ MaterialDef Pre Shadow {
             ColorWrite Off
         }
     }
+=======
+MaterialDef Pre Shadow {
+    MaterialParameters {
+        Int BoundDrawBuffer
+    }
+
+    Technique {
+        VertexShader   GLSL300 GLSL150 GLSL100:   Common/MatDefs/Shadow/PreShadow.vert
+        FragmentShader GLSL300 GLSL150 GLSL100:   Common/MatDefs/Shadow/PreShadow.frag
+
+        Defines {
+            BOUND_DRAW_BUFFER: BoundDrawBuffer
+        }
+
+        WorldParameters {
+            WorldViewProjectionMatrix
+            WorldViewMatrix
+        }
+
+        RenderState {
+            FaceCull Off
+            DepthTest On
+            DepthWrite On
+            PolyOffset 5 3
+            ColorWrite Off
+        }
+    }
+>>>>>>> 77fd70f68c102373aaa58758a341154d80c3c175
 }

@@ -37,7 +37,11 @@ import java.util.logging.Logger;
  * Android
  *
  * @author Kirill
+<<<<<<< HEAD
  * @authory larynx
+=======
+ * @author larynx
+>>>>>>> 77fd70f68c102373aaa58758a341154d80c3c175
  */
 public class AndroidHarness extends Activity implements TouchListener, DialogInterface.OnClickListener, SystemListener {
 
@@ -172,7 +176,11 @@ public class AndroidHarness extends Activity implements TouchListener, DialogInt
     protected boolean isGLThreadPaused = true;
     protected ImageView splashImageView = null;
     protected FrameLayout frameLayout = null;
+<<<<<<< HEAD
     static final private String ESCAPE_EVENT = "TouchEscape";
+=======
+    final private String ESCAPE_EVENT = "TouchEscape";
+>>>>>>> 77fd70f68c102373aaa58758a341154d80c3c175
     private boolean firstDrawFrame = true;
     private boolean inConfigChange = false;
 

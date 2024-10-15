@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 MaterialDef Cartoon Edge {
 
     MaterialParameters {
@@ -32,4 +33,40 @@ MaterialDef Cartoon Edge {
         }
     }
 
+=======
+MaterialDef Cartoon Edge {
+
+    MaterialParameters {
+        Int BoundDrawBuffer
+        Int NumSamples
+        Int NumSamplesDepth
+        Texture2D Texture
+        Texture2D NormalsTexture
+        Texture2D DepthTexture
+        Color EdgeColor
+        Float EdgeWidth
+        Float EdgeIntensity
+        Float NormalThreshold
+        Float DepthThreshold
+        Float NormalSensitivity
+        Float DepthSensitivity
+    }
+
+     Technique {
+        VertexShader   GLSL300 GLSL150 GLSL100 :   Common/MatDefs/Post/Post.vert
+        FragmentShader GLSL300 GLSL150 GLSL100 :   Common/MatDefs/Post/CartoonEdge.frag
+
+        WorldParameters {
+            WorldViewMatrix
+            ResolutionInverse
+        }
+
+        Defines {
+            BOUND_DRAW_BUFFER: BoundDrawBuffer
+            RESOLVE_MS : NumSamples
+            RESOLVE_DEPTH_MS : NumSamplesDepth
+        }
+    }
+
+>>>>>>> 77fd70f68c102373aaa58758a341154d80c3c175
 }

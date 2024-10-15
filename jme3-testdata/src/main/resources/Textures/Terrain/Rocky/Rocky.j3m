@@ -1,7 +1,16 @@
+<<<<<<< HEAD
 Material Rock : Common/MatDefs/Light/Lighting.j3md {
      MaterialParameters {
          Shininess: 32.0
          DiffuseMap : Textures/Terrain/Rocky/RockyTexture.jpg
          NormalMap :  Textures/Terrain/Rocky/RockyNormals.jpg
      }
+=======
+Material Rock : Common/MatDefs/Light/Lighting.j3md {
+     MaterialParameters {
+         Shininess: 32.0
+         DiffuseMap : Textures/Terrain/Rocky/RockyTexture.jpg
+         NormalMap :  Textures/Terrain/Rocky/RockyNormals.jpg
+     }
+>>>>>>> 77fd70f68c102373aaa58758a341154d80c3c175
 }

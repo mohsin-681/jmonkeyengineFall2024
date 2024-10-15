@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 material SOLID/TEX/Rocket.tga
 {
 	technique
@@ -11,3 +12,18 @@ material SOLID/TEX/Rocket.tga
 		}
 	}
 }
+=======
+material SOLID/TEX/Rocket.tga
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture Rocket.png
+			}
+		}
+	}
+}
+>>>>>>> 77fd70f68c102373aaa58758a341154d80c3c175

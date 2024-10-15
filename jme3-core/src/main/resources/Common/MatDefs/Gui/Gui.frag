@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #import "Common/ShaderLib/GLSLCompat.glsllib"
 
 #ifdef TEXTURE
@@ -16,3 +17,23 @@ void main() {
     #endif
 }
 
+=======
+#import "Common/ShaderLib/GLSLCompat.glsllib"
+
+#ifdef TEXTURE
+    uniform sampler2D m_Texture;
+    varying vec2 texCoord;
+#endif
+
+varying vec4 color;
+
+void main() {
+    #ifdef TEXTURE
+      vec4 texVal = texture2D(m_Texture, texCoord);
+      gl_FragColor = texVal * color;
+    #else
+      gl_FragColor = color;
+    #endif
+}
+
+>>>>>>> 77fd70f68c102373aaa58758a341154d80c3c175

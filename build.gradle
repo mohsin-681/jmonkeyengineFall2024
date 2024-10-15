@@ -15,9 +15,13 @@ buildscript {
         classpath "com.github.spotbugs.snom:spotbugs-gradle-plugin:6.0.18"
     }
 }
+<<<<<<< HEAD
 plugins {
   id "org.sonarqube" version "5.1.0.4882"
 }
+=======
+
+>>>>>>> 77fd70f68c102373aaa58758a341154d80c3c175
 allprojects {
     repositories {
         mavenCentral()
@@ -37,7 +41,10 @@ apply from: file('version.gradle')
 
 apply plugin: 'me.tatarka.retrolambda'
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 77fd70f68c102373aaa58758a341154d80c3c175
 // This is applied to all sub projects
 subprojects {
     if(!project.name.equals('jme3-android-examples')) {

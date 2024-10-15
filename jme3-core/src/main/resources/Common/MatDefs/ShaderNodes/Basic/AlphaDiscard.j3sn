@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ShaderNodeDefinitions{
     ShaderNodeDefinition AlphaDiscard {      
         Type: Fragment
@@ -15,4 +16,23 @@ ShaderNodeDefinitions{
             None
         }
     }
+=======
+ShaderNodeDefinitions{
+    ShaderNodeDefinition AlphaDiscard {      
+        Type: Fragment
+        Shader GLSL100: Common/MatDefs/ShaderNodes/Basic/alphaDiscard.frag
+        Documentation{
+            Discards the current pixel if its alpha channel value is below the given threshold
+            @input alpha the alpha value 
+            @input threshold the discard threshold          
+        }
+        Input {            
+            float alpha
+            float threshold
+        }
+        Output {
+            None
+        }
+    }
+>>>>>>> 77fd70f68c102373aaa58758a341154d80c3c175
 }
